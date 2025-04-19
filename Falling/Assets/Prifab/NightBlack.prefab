@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3329373956668263305}
   - component: {fileID: 3329373956668263306}
   m_Layer: 6
-  m_Name: Night
+  m_Name: day
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 6792c1910c4d92f4b81b45a055f84837, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 030f3d3dcb12dd546a1f7e1cd5aa5c66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,9 +94,9 @@ GameObject:
   m_Component:
   - component: {fileID: 177486603096450717}
   - component: {fileID: 8333566363564125252}
-  - component: {fileID: 2480729023107279244}
+  - component: {fileID: 491327596233019953}
   m_Layer: 6
-  m_Name: Day
+  m_Name: night
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,10 +158,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f5f4e673803dc4b47a9d350d7d374f67, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd82479539e0edc48b913a16efa26a86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
-  m_FlipY: 1
+  m_FlipX: 0
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
@@ -169,7 +169,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2480729023107279244
+--- !u!61 &491327596233019953
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,18 +201,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00028155744, y: -0.0005630851}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.18, y: 0.11}
+    oldSize: {x: 0.18666667, y: 0.12}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18, y: 0.11}
+  m_Size: {x: 0.18957332, y: 0.12238896}
   m_EdgeRadius: 0
 --- !u!1 &6299443667561969839
 GameObject:
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 3055591001960792059}
   - component: {fileID: 4617800978088504736}
   m_Layer: 6
-  m_Name: DayBlock
+  m_Name: NightBlack
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  dayTime: {fileID: 4877082866063245491}
-  nightTime: {fileID: 3329373956668263307}
+  dayTime: {fileID: 3329373956668263307}
+  nightTime: {fileID: 4877082866063245491}
   minSpeed: 3
   maxSppeed: 4

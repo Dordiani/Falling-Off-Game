@@ -2099,7 +2099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2095528552}
-  minSpawnTime: 4
+  minSpawnTime: 1
   maxSpawnTime: 6
   minSpeedUp: -0.0005
   maxSpeedUp: -0.0005
@@ -3073,8 +3073,8 @@ MonoBehaviour:
   spawners:
   - {fileID: 1711288375}
   - {fileID: 1847494761}
-  spawneTimeMin: 50
-  spawneTimeMax: 60
+  spawneTimeMin: 30
+  spawneTimeMax: 40
 --- !u!114 &1373054290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3091,8 +3091,8 @@ MonoBehaviour:
   spawners:
   - {fileID: 2021335605}
   - {fileID: 809995394}
-  spawneTimeMin: 30
-  spawneTimeMax: 40
+  spawneTimeMin: 50
+  spawneTimeMax: 60
 --- !u!4 &1373054291
 Transform:
   m_ObjectHideFlags: 0
@@ -3950,8 +3950,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2095528552}
-  minSpawnTime: 10
-  maxSpawnTime: 13
+  minSpawnTime: 5
+  maxSpawnTime: 10
   minSpeedUp: -0.0005
   maxSpeedUp: -0.0005
   spawner: {fileID: 1711288375}
@@ -4467,7 +4467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2095528552}
-  minSpawnTime: 4
+  minSpawnTime: 1
   maxSpawnTime: 6
   minSpeedUp: -0.0005
   maxSpeedUp: -0.0005

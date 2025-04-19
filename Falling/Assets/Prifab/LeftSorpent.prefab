@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1921820531, guid: 855b4969312011345bdafc49d4e44eee, type: 3}
+  m_Sprite: {fileID: 1881856996, guid: 4f9cd49a6e0c3f24286af20ed0adfb57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -253,7 +253,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006, y: -0.02}
+  m_Offset: {x: 0.3854778, y: 0.21455312}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -264,7 +264,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3, y: 1.7}
+  m_Size: {x: 2.1064043, y: 1.6721635}
   m_EdgeRadius: 0
 --- !u!1 &3961751380504084250
 GameObject:
@@ -330,7 +330,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.147, y: -0.15}
+  m_Offset: {x: -0.2730136, y: -0.5136022}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -341,7 +341,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.76, y: 0.56}
+  m_Size: {x: 5.0365696, y: 1.2907852}
   m_EdgeRadius: 0
 --- !u!1 &4313886032262351826
 GameObject:
@@ -441,7 +441,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006, y: -0.02}
+  m_Offset: {x: 0.37093666, y: 0.20508337}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -452,7 +452,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3, y: 1.7}
+  m_Size: {x: 2.1177769, y: 1.6790133}
   m_EdgeRadius: 0
 --- !u!1 &5281291703534795688
 GameObject:
@@ -561,7 +561,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -739624234, guid: 5108c8f74b709ea4faaaf1ff9148e264, type: 3}
+  m_Sprite: {fileID: -1006184808, guid: 84881cc9fe43bc44d87bae6bd300189a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -611,7 +611,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8633875752537132567}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
