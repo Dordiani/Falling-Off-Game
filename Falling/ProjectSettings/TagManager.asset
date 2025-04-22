@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - DayBlock
   - Dead
+  - Audio
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerControl : MonoBehaviour
 {
+    AudioManager audioManager;
     public Transform groundCheck;
     public LayerMask groundLayer;
 
@@ -52,6 +53,11 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private GameObject deathScroomNight;
     public bool dead = false;
 
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -83,7 +89,7 @@ public class PlayerControl : MonoBehaviour
     private void OnDayNight(InputValue value)
     {
         dayCycle = value.isPressed;
-
+        audioManager.PlaySFX(audioManager.day_night);
         if (dayCycle && night == false)
         {
             dayPlayer.SetActive(true);
@@ -125,6 +131,7 @@ public class PlayerControl : MonoBehaviour
     private void OnJump(InputValue value)
     {
         jumping = value.isPressed;
+        audioManager.PlaySFX(audioManager.jump);
 
         if (grounded && !jumping)
         {
@@ -140,6 +147,7 @@ public class PlayerControl : MonoBehaviour
             if (grounded || doubleJump)
             {
                 jumpBufferCounter = jumpBufferTime;
+                audioManager.PlaySFX(audioManager.doublejump);
 
                 doubleJump = !doubleJump;
                 dayAnimator.SetTrigger("Doble Jump");
@@ -211,6 +219,7 @@ public class PlayerControl : MonoBehaviour
             jumping = false;
             dead = true;
             StartCoroutine(DeaingTimer());
+            audioManager.PlaySFX(audioManager.death);
         }
     }
 
